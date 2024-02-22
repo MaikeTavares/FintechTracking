@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using FintechTracking.Services;
 using FintechTracking.DTO;
-
+using FintechTrackingDb;
 
 namespace FintechTracking.Controllers
 {
@@ -32,3 +32,5 @@ namespace FintechTracking.Controllers
         }
     }
 }
+
+
